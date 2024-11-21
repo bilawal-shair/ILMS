@@ -24,7 +24,7 @@ const SplashScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Animated.Image
-        source={require('../assets/ilms-logo.png')}
+        source={require('../assets/ilms.png')}
         style={[styles.logo, { opacity: logoOpacity }]}
       />
       {/* <Text style={styles.text}>ILMS</Text> */}
@@ -40,8 +40,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   logo: {
-    width: 130, // Adjust the width as needed
-    height: 130, // Adjust the height as needed marginBottom: 20, // Add some space between the logo and the text
+    width: 110, // Adjust the width as needed
+    height: 110, // Adjust the height as needed marginBottom: 20, // Add some space between the logo and the text
+    borderRadius:10
   },
   text: {
     fontSize: 35,

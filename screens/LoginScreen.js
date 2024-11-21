@@ -23,7 +23,7 @@ const LoginScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/ilms-logo.png')} style={styles.logo} />
+      <Image source={require('../assets/ilms.png')} style={styles.logo} />
 
       <Text style={styles.loginText}>Login</Text>
 
@@ -31,7 +31,7 @@ const LoginScreen = () => {
         <Icon
           name="user"
           size={20}
-          color={usernameFocused ? "#2E3198" : "#ddd"} // Change icon color based on focus state
+          color={usernameFocused ? "#4B0082" : "#ddd"} // Change icon color based on focus state
           style={styles.icon}
         />
         <TextInput
@@ -49,7 +49,7 @@ const LoginScreen = () => {
         <Icon
           name="lock"
           size={20}
-          color={passwordFocused ? "#2E3198" : "#ddd"} // Change icon color based on focus state
+          color={passwordFocused ? "#4B0082" : "#ddd"} // Change icon color based on focus state
           style={styles.icon}
         />
         <TextInput
@@ -87,13 +87,14 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     marginBottom: "10%",
+    borderRadius:10
   },
   loginText: {
     fontSize: 24,
     textAlign: 'center',
     marginBottom: "20%",
     fontWeight: "900",
-    color: "#38BDE6"
+    color: "black"
   },
   inputContainer: {
     flexDirection: 'row',
@@ -102,12 +103,12 @@ const styles = StyleSheet.create({
     height: 50,
     borderColor: '#ddd',
     borderWidth: 1,
-    borderRadius: 5,
+    borderRadius: 30,
     paddingHorizontal: 10,
     marginVertical: 10,
   },
   inputContainerFocused: {
-    borderColor: '#2E3198',
+    borderColor: '#4B0082',
   },
   icon: {
     marginRight: 10,
@@ -119,10 +120,10 @@ const styles = StyleSheet.create({
   button: {
     width: '100%',
     height: 50,
-    backgroundColor: '#2E3198',
+    backgroundColor: '#4B0082',
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: 5,
+    borderRadius: 30,
     marginTop: "40%",
   },
   buttonText: {
@@ -131,7 +132,7 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
   registerText: {
-    color: '#2E3198',
+    color: '#4B0082',
     fontSize: 14,
     fontWeight: "bold",
     marginTop: 20,

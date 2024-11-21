@@ -16,57 +16,9 @@ const ExploreScreen = () => {
       </Text>
       <ScrollView style={{ marginBottom: "30%", top: "5%" }}>
 
-        <View style={{ flexDirection: "row", width: "95%", padding: 16, alignSelf: "center", justifyContent: "space-between", alignItems: "center" }}>
-          <Text style={{ fontSize: 15, fontWeight: "900", color: "black" }} >Topics</Text>
 
-          <TouchableOpacity onPress={()=>navigation.navigate("Explore by Topic")}>
-             <Text style={{ fontSize: 13, fontWeight: "900", color: "gray" }}>See All</Text>
-          </TouchableOpacity>
-         
-        </View>
-        <View style={{ top: "1%", width: "100%", height: "7%", alignSelf: "center" }}>
-          <ScrollView
-            horizontal
-            contentContainerStyle={{ flexDirection: "row", alignItems: "center" }}
-            showsHorizontalScrollIndicator={false}
-          >
-            <TouchableOpacity onPress={()=>navigation.navigate("Art and Humanities")} style={{ borderRadius: 10, width: 160, height: 60, backgroundColor: "#000080", marginHorizontal: 3, justifyContent: "center", alignItems: "center" }}>
-              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
-                Art and Humanities
-              </Text>
-            </TouchableOpacity>
-            <TouchableOpacity  onPress={()=>navigation.navigate("Bussiness")} style={{ borderRadius: 10, width: 120, height: 60, backgroundColor: "#800000", marginHorizontal: 3, justifyContent: "center", alignItems: "center" }}>
-              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
-                Business
-              </Text>
-            </TouchableOpacity >
-            <TouchableOpacity onPress={()=>navigation.navigate("Computer Screen")} style={{ borderRadius: 10, width: 170, height: 60, backgroundColor: "#006400", marginHorizontal: 3, justifyContent: "center", alignItems: "center" }}>
-              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
-                Computer Science
-              </Text>
-            </TouchableOpacity>
-            <TouchableOpacity  onPress={()=>navigation.navigate("Data Science")}style={{ borderRadius: 10, justifyContent: "center", alignItems: "center", width: 150, height: 60, backgroundColor: "#0000CD", marginHorizontal: 3 }}>
-              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
-                Data Science
-              </Text>
 
-            </TouchableOpacity>
-
-            <TouchableOpacity onPress={()=>navigation.navigate("Health")} style={{ borderRadius: 10, justifyContent: "center", alignItems: "center", width: 80, height: 60, backgroundColor: "#8B4513", marginHorizontal: 3 }}>
-              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
-                Health
-              </Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity  onPress={()=>navigation.navigate("Information Technology")} style={{ borderRadius: 10, width: 180, height: 60, backgroundColor: "#008B8B", marginHorizontal: 3, justifyContent: "center", alignItems: "center" }}>
-              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
-                Information Technology
-              </Text>
-            </TouchableOpacity>
-         </ScrollView>
-
-        </View>
-        <View style={{ marginBottom: "2%", top: "5%", flexDirection: "row", width: "95%", padding: 16, alignSelf: "center", justifyContent: "space-between", alignItems: "center" }}>
+      <View style={{ marginBottom: "2%", top: "5%", flexDirection: "row", width: "95%", padding: 16, alignSelf: "center", justifyContent: "space-between", alignItems: "center" }}>
           <Text style={{ fontSize: 15, fontWeight: "900", color: "black" }} >Most Popular Certificate</Text>
 
           <TouchableOpacity onPress={()=>navigation.navigate("Most Popular Certificates")}>
@@ -83,7 +35,7 @@ const ExploreScreen = () => {
           >
             <View style={{ borderRadius: 10, width: 150, height: 170, marginHorizontal: 5, justifyContent: "center", alignItems: "center" }}>
 
-              <Image style={{ width: 130, height: 100, borderRadius: 10 }} source={{ uri: "https://img.freepik.com/free-photo/close-up-student-with-his-homework_1098-332.jpg?ga=GA1.1.1155509870.1697629433&semt=ais_user" }} />
+              <Image style={{ width: 130, height: 100, borderRadius: 10 }} source={{ uri: "https://img.freepik.com/free-photo/happy-man-with-laptop-computer-office_329181-14583.jpg?ga=GA1.1.1155509870.1697629433&semt=ais_hybrid" }} />
               <View style={{ top: "5%" }}>
 
                 <Text style={{ fontSize: 10, fontWeight: "600", color: "black" }}>
@@ -109,7 +61,7 @@ const ExploreScreen = () => {
 
             </View>
             <View style={{ borderRadius: 10, width: 150, height: 170, marginHorizontal: 5, justifyContent: "center", alignItems: "center" }}>
-              <Image style={{ width: 130, height: 100, borderRadius: 10 }} source={{ uri: "https://img.freepik.com/free-photo/still-life-books-versus-technology_23-2150062920.jpg?ga=GA1.1.1155509870.1697629433&semt=sph" }} />
+              <Image style={{ width: 130, height: 100, borderRadius: 10 }} source={{ uri: "https://img.freepik.com/free-photo/picture-talented-young-bearded-man-copywriter-casual-t-shirt-typing-generic-portable-computer-his-minimalistic-home-office-interior-looking-screen-with-concentrated-expression_343059-1826.jpg?ga=GA1.1.1155509870.1697629433&semt=ais_hybrid" }} />
               <View style={{ top: "5%" }}>
 
                 <Text style={{ fontSize: 10, fontWeight: "600", color: "black" }}>
@@ -201,7 +153,7 @@ const ExploreScreen = () => {
               </View>
             </View>
             <View style={{ borderRadius: 10, width: 150, height: 170, marginHorizontal: 5, justifyContent: "center", alignItems: "center" }}>
-              <Image style={{ width: 130, height: 100, borderRadius: 10 }} source={{ uri: "https://img.freepik.com/free-photo/businesspeople-working-finance-accounting-analyze-financi_74952-1399.jpg?ga=GA1.1.1155509870.1697629433&semt=sph" }} />
+              <Image style={{ width: 130, height: 100, borderRadius: 10 }} source={{ uri: "https://img.freepik.com/free-photo/adult-ginger-handsome-man-with-laptop-computer-sitting-terrace-restaurant-cafe_176420-15456.jpg?ga=GA1.1.1155509870.1697629433&semt=ais_hybrid" }} />
               <View style={{ top: "5%" }}>
 
                 <Text style={{ fontSize: 10, fontWeight: "600", color: "black" }}>
@@ -227,6 +179,61 @@ const ExploreScreen = () => {
           </ScrollView>
         </View>
 
+        <View style={{ flexDirection: "row", width: "95%", padding: 16, alignSelf: "center", justifyContent: "space-between", alignItems: "center" }}>
+          <Text style={{ fontSize: 15, fontWeight: "900", color: "black" }} >Topics</Text>
+
+          <TouchableOpacity onPress={()=>navigation.navigate("Explore by Topic")}>
+             <Text style={{ fontSize: 13, fontWeight: "900", color: "gray" }}>See All</Text>
+          </TouchableOpacity>
+         
+        </View>
+        <View style={{ bottom: "0.5%", width: "100%", height: "7%", alignSelf: "center" }}>
+          <ScrollView
+            horizontal
+            contentContainerStyle={{ flexDirection: "row", alignItems: "center" }}
+            showsHorizontalScrollIndicator={false}
+          >
+            <TouchableOpacity onPress={()=>navigation.navigate("Art and Humanities")} style={{ borderRadius: 10, width: 160, height: 60, backgroundColor: "#000080", marginHorizontal: 3, justifyContent: "center", alignItems: "center" }}>
+              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
+                Art and Humanities
+              </Text>
+            </TouchableOpacity>
+            <TouchableOpacity  onPress={()=>navigation.navigate("Bussiness")} style={{ borderRadius: 10, width: 120, height: 60, backgroundColor: "#800000", marginHorizontal: 3, justifyContent: "center", alignItems: "center" }}>
+              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
+                Business
+              </Text>
+            </TouchableOpacity >
+            <TouchableOpacity onPress={()=>navigation.navigate("Computer Screen")} style={{ borderRadius: 10, width: 170, height: 60, backgroundColor: "#006400", marginHorizontal: 3, justifyContent: "center", alignItems: "center" }}>
+              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
+                Computer Science
+              </Text>
+            </TouchableOpacity>
+            <TouchableOpacity  onPress={()=>navigation.navigate("Data Science")}style={{ borderRadius: 10, justifyContent: "center", alignItems: "center", width: 150, height: 60, backgroundColor: "#0000CD", marginHorizontal: 3 }}>
+              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
+                Data Science
+              </Text>
+
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={()=>navigation.navigate("Health")} style={{ borderRadius: 10, justifyContent: "center", alignItems: "center", width: 80, height: 60, backgroundColor: "#8B4513", marginHorizontal: 3 }}>
+              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
+                Health
+              </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity  onPress={()=>navigation.navigate("Information Technology")} style={{ borderRadius: 10, width: 180, height: 60, backgroundColor: "#008B8B", marginHorizontal: 3, justifyContent: "center", alignItems: "center" }}>
+              <Text style={{ fontSize: 14, fontWeight: "900", color: "#fff" }}>
+                Information Technology
+              </Text>
+            </TouchableOpacity>
+         </ScrollView>
+
+        </View>
+       
+
+        
+        
+        
         <View style={{ marginBottom: "1%", bottom: "3%", flexDirection: "row", width: "90%", padding: 16, alignSelf: "center", justifyContent: "space-between", alignItems: "center" }}>
           <Text style={{ fontSize: 15, fontWeight: "900", color: "black" }} >Earn your Degrees</Text>
 
@@ -354,7 +361,7 @@ const ExploreScreen = () => {
               </View>
             </View>
             <TouchableOpacity onPress={()=>navigation.navigate("Computer Science Programming wit Pur..")}>
-              <Entypo name={'chevron-right'} size={22} color={'#38BDE6'} />
+              <Entypo name={'chevron-right'} size={22} color={'black'} />
             </TouchableOpacity>
           </View>
 
@@ -369,7 +376,7 @@ const ExploreScreen = () => {
               </View>
             </View>
             <TouchableOpacity onPress={()=>navigation.navigate("Cryptography")}>
-              <Entypo name={'chevron-right'} size={22} color={'#38BDE6'} />
+              <Entypo name={'chevron-right'} size={22} color={'black'} />
             </TouchableOpacity>
           </View>
 
@@ -384,7 +391,7 @@ const ExploreScreen = () => {
               </View>
             </View>
             <TouchableOpacity onPress={()=>navigation.navigate("Algorithm")}>
-              <Entypo name={'chevron-right'} size={22} color={'#38BDE6'} />
+              <Entypo name={'chevron-right'} size={22} color={'black'} />
             </TouchableOpacity>
           </View>
 
@@ -399,7 +406,7 @@ const ExploreScreen = () => {
               </View>
             </View>
             <TouchableOpacity onPress={()=>navigation.navigate("CyberSecurity")}> 
-              <Entypo name={'chevron-right'} size={22} color={'#38BDE6'} />
+              <Entypo name={'chevron-right'} size={22} color={'black'} />
             </TouchableOpacity>
           </View>
 

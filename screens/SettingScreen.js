@@ -10,27 +10,27 @@ const SettingScreen = () => {
       </View>
 
       <TouchableOpacity style={styles.option}>
-        <Icon name="brightness-6" size={24} color="#2E3198" />
+        <Icon name="brightness-6" size={24} color="#4B0082" />
         <Text style={styles.optionText}>Dark Mode</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.option}>
-        <Icon name="brightness-7" size={24} color="#2E3198" />
+        <Icon name="brightness-7" size={24} color="#4B0082" />
         <Text style={styles.optionText}>Light Mode</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.option}>
-        <Icon name="language" size={24} color="#2E3198" />
+        <Icon name="language" size={24} color="#4B0082" />
         <Text style={styles.optionText}>Change Preferred Language</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.option}>
-        <Icon name="file-download" size={24} color="#2E3198" />
+        <Icon name="file-download" size={24} color="#4B0082" />
         <Text style={styles.optionText}>Download Options</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.option}>
-        <Icon name="logout" size={24} color="#2E3198" />
+        <Icon name="logout" size={24} color="#4B0082" />
         <Text style={styles.optionText}>Logout</Text>
       </TouchableOpacity>
     </ScrollView>
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
   },
   header: {
-    backgroundColor: '#2E3198',
+    backgroundColor: '#4B0082',
     padding: 20,
     alignItems: 'center',
   },

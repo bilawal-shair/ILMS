@@ -27,7 +27,7 @@ const TabNavigator = () => {
         initialRouteName="explore"
         screenOptions={{
           headerShown: false,
-          tabBarActiveTintColor: '#2E3198',
+          tabBarActiveTintColor: '#4B0082',
           tabBarLabelStyle: styles.tabBarLabel, // Apply styles here
           tabBarIconStyle: {marginTop:13 }, // Adjust as needed
           tabBarStyle: styles.tabBar, // Apply styles here
@@ -44,17 +44,6 @@ const TabNavigator = () => {
           }}
         />
          <Tab.Screen
-          name="search"
-          component={SearchScreen}
-          options={{
-            tabBarLabel: 'Search',
-            tabBarIcon: ({ color, size }) => (
-              <FontAwesome name="search" color={color} size={21} />
-            ),
-          }}
-        />
-      
-        <Tab.Screen
           name="learn"
           component={LearnScreen}
           options={{
@@ -64,6 +53,9 @@ const TabNavigator = () => {
             ),
           }}
         />
+       
+      
+       
           <Tab.Screen
           name="career"
           component={CareerScreen}
@@ -71,6 +63,16 @@ const TabNavigator = () => {
             tabBarLabel: 'Career',
             tabBarIcon: ({ color, size }) => (
               <FontAwesome5 name="business-time" color={color} size={21} />
+            ),
+          }}
+        />
+          <Tab.Screen
+          name="search"
+          component={SearchScreen}
+          options={{
+            tabBarLabel: 'Search',
+            tabBarIcon: ({ color, size }) => (
+              <FontAwesome name="search" color={color} size={21} />
             ),
           }}
         />
